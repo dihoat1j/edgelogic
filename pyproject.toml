@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgelogic"
+version = "0.1.0"
+description = "Lightweight Int8 inference for game agents"
+readme = "README.md"
+authors = [{ name = "EdgeLogic Authors" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Games/Entertainment"
+]
+dependencies = [
+    "numpy>=1.20.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "flake8"]
