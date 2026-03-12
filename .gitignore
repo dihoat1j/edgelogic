@@ -1,0 +1,11 @@
+# Git ignore for EdgeLogic project
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+*.edge
+.DS_Store
